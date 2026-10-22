@@ -1,0 +1,73 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Dot Launcher",
+  "version": "1.0.0",
+  "identifier": "app.worldtime.dotlauncher",
+  "build": {
+    "frontendDist": "../src"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "macOSPrivateApi": true,
+    "windows": [
+      {
+        "label": "main",
+        "title": "Dot Launcher",
+        "url": "index.html",
+        "width": 360,
+        "height": 80,
+        "decorations": false,
+        "transparent": true,
+        "shadow": false,
+        "resizable": false,
+        "maximizable": false,
+        "alwaysOnTop": false,
+        "acceptFirstMouse": true,
+        "visible": false,
+        "center": true,
+        "additionalBrowserArgs": "--disable-features=msWebOOUI,msPdfOOUI,msSmartScreenProtection",
+        "skipTaskbar": true
+      },
+      {
+        "label": "settings",
+        "title": "Dot Launcher — Settings",
+        "url": "settings.html",
+        "width": 600,
+        "height": 800,
+        "minWidth": 500,
+        "minHeight": 520,
+        "visible": false,
+        "center": true,
+        "additionalBrowserArgs": "--disable-features=msWebOOUI,msPdfOOUI,msSmartScreenProtection"
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self' ipc: http://ipc.localhost; img-src 'self' data:; connect-src ipc: http://ipc.localhost; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "category": "Utility",
+    "shortDescription": "Dot-matrix to-do list",
+    "longDescription": "A lightweight desktop checklist: type tasks straight onto the widget, click to tick them off.",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "wix": {
+        "language": "en-US"
+      }
+    },
+    "macOS": {
+      "minimumSystemVersion": "10.15",
+      "signingIdentity": "-"
+    },
+    "publisher": "dot-widget",
+    "copyright": "dot-widget"
+  }
+}
