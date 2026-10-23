@@ -34,3 +34,23 @@ The widget doesn't take up a spot on the taskbar (or the Dock on a Mac). It sits
 See [BUILDING.md](BUILDING.md). The installer is called `Dot Launcher_1.0.0_x64_en-US.msi`.
 
 ![Dot Launcher](docs/images/settings.png)
+
+## Check out the Singular Widgets
+
+[Dot Calendar](https://github.com/slainbya-dotcom/dot-Calendar)
+[Dot Clipboard](https://github.com/slainbya-dotcom/dot-clipboard)
+[Dot Clock](https://github.com/slainbya-dotcom/dot-clock)
+[Dot Deck](https://github.com/slainbya-dotcom/dot-deck)
+[Dot Dice](https://github.com/slainbya-dotcom/dot-dice)
+[Dot Focus](https://github.com/slainbya-dotcom/dot-focus)
+[Dot Launcher](https://github.com/slainbya-dotcom/dot-launcher)
+[Dot List](https://github.com/slainbya-dotcom/dot-list)
+[Dot Planner](https://github.com/slainbya-dotcom/dot-planner)
+[Dot Player](https://github.com/slainbya-dotcom/dot-player)
+[Dot Reader](https://github.com/slainbya-dotcom/dot-reader)
+[Dot Sun](https://github.com/slainbya-dotcom/dot-sun)
+[Dot System](https://github.com/slainbya-dotcom/dot-system)
+[Dot Ticker](https://github.com/slainbya-dotcom/dot-ticker)
+[Dot Timer](https://github.com/slainbya-dotcom/dot-timer)
+[Dot Visualiser](https://github.com/slainbya-dotcom/dot-visualiser)
+[Dot Weather](https://github.com/slainbya-dotcom/dot-weather)
